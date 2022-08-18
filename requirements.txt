@@ -1,0 +1,27 @@
+
+functional
+
+Purpose
+Business Rules
+Transaction corrections, adjustments, and cancellations in hiring
+Authentication 
+Authorization levels
+Reporting Requirements
+Historical Data
+Overall description
+Specific requirements
+
+
+
+non functional
+
+operation
+revision
+transition
+testing
+Usability
+Regulatory
+Reliability
+Performance
+Integrated nature
+Subjective nature

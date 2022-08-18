@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Law Firm</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+   
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+        
+           
+  
+        
+    </head>
+
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-4 text-primary text-uppercase">Law Firm</h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row bg-white border-bottom d-none d-lg-flex">
+                    <div class="col-lg-7 text-left">
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                            <i class="fa fa-envelope text-primary mr-2"></i>
+                            <small>xyz@example.com</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-primary mr-2"></i>
+                            <small>+92 123 456 789</small>
+                        </div>
+                    </div>
+
+                     <!-- Links Start -->
+                    <div class="col-lg-5 text-right">
+                        <div class="d-inline-flex align-items-center p-2">
+                            
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">Justice</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Clients</a>
+                            <a href="team.html" class="nav-item nav-link">Team</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contact</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="#" class="dropdown-item">Menu Contact-1</a>
+                                    <a href="#" class="dropdown-item">Menu Contact-2</a>
+                                    <a href="#" class="dropdown-item">Menu Contact-3</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <a onclick="closed()" href="" class="btn btn-primary mr-3 d-none d-lg-block">Get Connected</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+
+
+    <!-- hero Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Best Law Firm</h4>
+                            <h3 class="display-2 text-capitalize text-white mb-4">We Fight For justice</h3>
+                            <a class="btn btn-primary py-3 px-5 mt-2" href="#">Get Connected</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">You Can Trust Us</h4>
+                            <h3 class="display-2 text-capitalize text-white mb-4">We are prepared</h3>
+                            <a class="btn btn-primary py-3 px-5 mt-2" href="#">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-prev-icon"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-next-icon"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+     <!--Functional and Non Functional Requirements -->
+
+ <h1 class="cen">
+                  We Strive For Justise
+ </h1>
+<div class="images_1">
+    <img  src="./img/t.jpg" alt="">
+</div>
+
+
+<h3 class="mb-4">Click Button To Get Project Functional & Non-Functional Requirements  </h3>
+     <button id="btn" class="mb-4 btn btn-primary btn-block border-0 py-3" type="submit" onclick="toggleHide()">Functional & Non-Functional Requirements </button>
+     <div class="container">
+         
+         <p class="Paragraphs" id="para1">
+             <br>
+             <br>
+Functional Requirements of Project
+<br>
+<br>
+
+             Purpose
+             <br>
+             Business Rules
+             Transaction 
+             <br> 
+             corrections
+              <br> 
+              adjustments
+               <br> 
+               cancellations in hiring
+               <br>
+             Authentication
+             <br> 
+             Authorization levels
+             <br>
+             Reporting Requirements
+             <br>
+             Historical Data
+             <br>
+             Overall description
+             <br>
+             Specific requirements          
+            
+            
+            <br>
+            <br>
+            Non-Functional Requirements of Project
+<br><br>
+
+            
+operation
+<br>
+revision
+<br>
+transition
+<br>
+testing
+<br>
+Usability
+<br>
+Regulatory
+<br>
+Reliability
+<br>
+Performance
+<br>
+Integrated nature
+<br>
+Subjective nature
+
+            </p>
+
+
+
+        
+    </div>
+    
+    <script>
+        let para1 = document.getElementById('para1');
+        para.addEventListener('mouseover', function run(){
+            console.log('')
+        });
+
+        para.addEventListener('mouseout', function run(){
+            console.log('')
+        });
+
+
+    function toggleHide(){
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('para1'); 
+        if(para.style.display != 'none'){
+        para.style.display = 'none';
+        }
+        else{
+        para.style.display = 'block';
+        }
+    }
+    </script>
+
+
+
+
+
+ <!--Functional and Non Functional Requirements End -->
+
+
+    <!-- About -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded" src="img/feature.jpg" alt="">
+                </div>
+                <div class="col-lg-7 mt-4 mt-lg-0">
+                    <h2 class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block" style="width: 350px; margin-left: -205px;">5 Years Experience</h2>
+                    <h6 class="text-uppercase">More Details</h6>
+                    <h1 class="mb-4">We Provide Reliable Services</h1>
+                    <p>lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <a href="" class="btn btn-primary mt-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    
+
+    <!-- Appointment Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="bg-appointment rounded">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-6 py-5">
+                        <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
+                            <h1 class="text-center text-white mb-4">Get An Appointment</h1>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Your Email" required="required" />
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <div class="date" id="date" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <div class="time" id="time" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select border-0 px-4" style="height: 47px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 1</option>
+                                        <option value="3">Service 1</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Get An Appointment</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <button id="btn" class="btn btn-primary btn-block border-0 py-3 mb-4">Discord user Name </button>
+        <h1 id="para2">shahzaibshafiq100#5831</h1>
+
+    
+        <div class="row mt-5">
+            
+            <div class="col-lg-4">
+                
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+                    
+                    
+                    <div class="ml-3">
+                        <h5 class="text-white">Our Location</h5>
+                        <p class="m-0">ABC City XYZ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Email Us</h5>
+                        <p class="m-0">xyz@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Call Us</h5>
+                        <p class="m-0">+92 123 455 789</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    <!-- Footer End -->
+
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+   
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
